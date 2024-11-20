@@ -1,0 +1,24 @@
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT parking-garage.g2o m.g2o
+Input loaded.
+Number of measurements: 6275
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 34.881 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_sa parking-garage.g2o s.g2o
+Input loaded.
+Number of measurements: 6275
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 80.168 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_rbfs parking-garage.g2o r.g2o
+Input loaded.
+Number of measurements: 6275
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 2459.04 ms.
+Output finished.
+

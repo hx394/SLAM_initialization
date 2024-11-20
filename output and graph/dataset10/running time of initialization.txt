@@ -1,0 +1,24 @@
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT torus3D.g2o m.g2o
+Input loaded.
+Number of measurements: 9048
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 57.399 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_sa torus3D.g2o s.g2o
+Input loaded.
+Number of measurements: 9048
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 132.155 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_rbfs torus3D.g2o r.g2o
+Input loaded.
+Number of measurements: 9048
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 3258.44 ms.
+Output finished.
+

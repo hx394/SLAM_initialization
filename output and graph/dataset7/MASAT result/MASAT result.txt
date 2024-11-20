@@ -1,0 +1,26 @@
+Initial error before optimization: 15164621055549.8
+Initial error: 1.51646e+13, values: 1228
+iter      cost      cost_change    lambda  success iter_time
+   0      inf    5.43e-323    1.00e-05     0    1.27e-02
+iter      cost      cost_change    lambda  success iter_time
+   0      inf    5.43e-323    1.00e-04     0    4.48e-03
+iter      cost      cost_change    lambda  success iter_time
+   0      inf    5.43e-323    1.00e-03     0    5.87e-03
+iter      cost      cost_change    lambda  success iter_time
+   0  5.099067e+10    1.51e+13    1.00e-02     1    6.05e-03
+   1      inf    0.00e+00    1.00e-03     0    5.38e-03
+   1  4.171048e+04    5.10e+10    1.00e-02     1    7.50e-03
+   2      inf    0.00e+00    1.00e-03     0    4.40e-03
+   2  1.108651e+02    4.16e+04    1.00e-02     1    6.74e-03
+   3  1.108399e+02    2.52e-02    1.00e-03     1    6.14e-03
+   4      inf    0.00e+00    1.00e-04     0    6.38e-03
+   4      inf    0.00e+00    1.00e-03     0    4.55e-03
+   4  1.108397e+02    1.74e-04    1.00e-02     1    1.46e-02
+converged
+errorThreshold: 110.84 <? 0
+absoluteDecrease: 0.00017448030178 <? 1e-05
+relativeDecrease: 1.57416531118e-06 <? 1e-05
+iterations: 5 >? 100
+Optimization Runtime: 0.1023 seconds
+Error after optimizing:
+110.83971034069106

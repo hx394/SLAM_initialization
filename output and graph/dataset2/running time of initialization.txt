@@ -1,0 +1,26 @@
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT city10k.txt MASAT.g2o
+Input loaded.
+Number of measurements: 20687
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 44.553 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_sa city10k.txt sa.g2o
+Input loaded.
+Number of measurements: 20687
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 86.65 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_rbfs city10k.txt rbfs.g2o
+Input loaded.
+Number of measurements: 20687
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 1642.11 ms.
+Output finished.
+
+
+

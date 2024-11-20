@@ -1,0 +1,25 @@
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT FRH_P_g2o.g2o m.g2o
+Input loaded.
+Number of measurements: 2820
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 4.552 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_sa FRH_P_g2o.g2o s.g2o
+Input loaded.
+Number of measurements: 2820
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 8.848 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_rbfs FRH_P_g2o.g2o r.g2o
+Input loaded.
+Number of measurements: 2820
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 581.042 ms.
+Output finished.
+
+

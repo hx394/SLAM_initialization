@@ -1,0 +1,15 @@
+Initial error before optimization: 92097.83774559305
+Initial error: 92097.8, values: 10000
+iter      cost      cost_change    lambda  success iter_time
+   0  8.712880e+04    4.97e+03    1.00e-05     1    1.49e-01
+   1  8.579944e+04    1.33e+03    1.00e-06     1    1.47e-01
+   2  8.579738e+04    2.07e+00    1.00e-07     1    1.51e-01
+   3  8.579739e+04   -1.42e-02    1.00e-08     1    1.35e-01
+converged
+errorThreshold: 85797.4 <? 0
+absoluteDecrease: 0 <? 1e-05
+relativeDecrease: 0 <? 1e-05
+iterations: 3 >? 100
+Optimization Runtime: 0.7787 seconds
+Error after optimizing:
+85797.37611131865

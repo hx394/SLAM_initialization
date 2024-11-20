@@ -1,0 +1,30 @@
+Initial error before optimization: 16367858805.411179
+Initial error: 1.63679e+10, values: 10000
+iter      cost      cost_change    lambda  success iter_time
+   0  8.547257e+09    7.82e+09    1.00e-05     1    1.22e-01
+   1  5.901113e+08    7.96e+09    1.00e-06     1    1.10e-01
+   2  3.836337e+08    2.06e+08    1.00e-07     1    1.19e-01
+   3  9.428381e+08   -5.59e+08    1.00e-08     1    1.08e-01
+   3  9.428383e+08   -5.59e+08    1.00e-07     1    1.01e-01
+   3  9.428378e+08   -5.59e+08    1.00e-06     1    9.84e-02
+   3  9.428316e+08   -5.59e+08    1.00e-05     1    9.91e-02
+   3  9.427692e+08   -5.59e+08    1.00e-04     1    1.00e-01
+   3  9.421459e+08   -5.59e+08    1.00e-03     1    1.02e-01
+   3  9.359857e+08   -5.52e+08    1.00e-02     1    9.82e-02
+   3  8.809203e+08   -4.97e+08    1.00e-01     1    1.03e-01
+   3  6.353952e+08   -2.52e+08    1.00e+00     1    1.00e-01
+   3  4.440778e+08   -6.04e+07    1.00e+01     1    1.04e-01
+   3  2.994728e+08    8.42e+07    1.00e+02     1    1.02e-01
+   4  9.782587e+08   -6.79e+08    1.00e+01     1    9.87e-02
+   4  7.409097e+08   -4.41e+08    1.00e+02     1    9.88e-02
+   4  4.624287e+08   -1.63e+08    1.00e+03     1    1.00e-01
+   4  3.231102e+08   -2.36e+07    1.00e+04     1    1.03e-01
+Warning:  Levenberg-Marquardt giving up because cannot decrease error with maximum lambda
+converged
+errorThreshold: 2.99473e+08 <? 0
+absoluteDecrease: 0 <? 1e-05
+relativeDecrease: 0 <? 1e-05
+iterations: 4 >? 100
+Optimization Runtime: 2.0051 seconds
+Error after optimizing:
+299472801.06359434

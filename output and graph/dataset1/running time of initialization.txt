@@ -1,0 +1,28 @@
+AT 10kHog-man.txt MASAT.g2o
+Input loaded.
+Number of measurements: 64311
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 99.67 ms.
+Output finished.
+
+AT_sa 10kHog-man.txt sa.g2o
+Input loaded.
+Number of measurements: 64311
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 198.468 ms.
+Output finished.
+
+
+AT_rbfs 10kHog-man.txt rbfs.g2o
+Input loaded.
+Number of measurements: 64311
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 14226 ms.
+Output finished.
+
+

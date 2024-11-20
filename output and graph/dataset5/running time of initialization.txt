@@ -1,0 +1,24 @@
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT grid3D.g2o m.g2o
+Input loaded.
+Number of measurements: 22236
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 134.98 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_sa grid3D.g2o s.g2o
+Input loaded.
+Number of measurements: 22236
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 327.437 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/MASAT_IG_for_SLAM (modified)/input_data/1$ ./MASAT_rbfs grid3D.g2o r.g2o
+Input loaded.
+Number of measurements: 22236
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 4894.37 ms.
+Output finished.
+
