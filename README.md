@@ -8,7 +8,7 @@ This repository contains the modified code for the *MASAT algorithm*: a robust a
 
 ### The improvement made by NEU students:
 Please see the upcoming report in the git repo.
-Too run the experiment.py file, make sure you have the correct path and set "is3D" parameter to a correct boolean.
+To run the experiment.py file, make sure you have the correct path and set "is3D" parameter to a correct boolean.
 
 
 ### Requirements
