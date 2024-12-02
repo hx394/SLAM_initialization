@@ -1,0 +1,9 @@
+Initial error before optimization: nan
+Initial error: -nan, values: 16
+Traceback (most recent call last):
+  File "/home/hongzhen/project/SLAM_initialization/runnable slam initializer/experiment.py", line 110, in <module>
+    result = optimizer.optimize()
+RuntimeError: An inference algorithm was called with inconsistent arguments.  The
+factor graph, ordering, or variable index were inconsistent with each
+other, or a full elimination routine was called with an ordering that
+does not include all of the variables.
