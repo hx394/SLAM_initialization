@@ -123,13 +123,17 @@ else:
     plot_2d_trajectory(initial_estimate)
 
 
-
+start_time_0=time.time()
 
 #print(graph)
 graph,initial_estimate=prune_factors(graph,initial_estimate)
 #print(graph)
 
+end_time_0 = time.time()  # Record end time
 
+# Calculate runtime
+runtime_0 = end_time_0 - start_time_0
+print(f"Initialization Runtime: {runtime_0:.4f} seconds")
 
 
 # def X(i):

@@ -9,7 +9,7 @@ from gtsam.utils.plot import plot_trajectory
 import matplotlib.pyplot as plt
 
 is3D=True
-graph, initial_estimate=gtsam.readG2o("./r.g2o",is3D)
+graph, initial_estimate=gtsam.readG2o("./output3.g2o",is3D)
 
 
 def plot_2d_trajectory(values, title="2D Trajectory", axis_labels=("X", "Y")):

@@ -1,3 +1,6 @@
+Initialization Runtime: 0.0167 seconds
+
+
 Initial error before optimization: 9400.0
 Initial error: 9400, values: 4
 iter      cost      cost_change    lambda  success iter_time
