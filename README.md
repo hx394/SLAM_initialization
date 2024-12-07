@@ -10,7 +10,8 @@ There are two new approaches introduced and implemented by Northeastern Universi
 
 ### The improvement made by NEU students:
 Please see the upcoming report in the git repo.
-To run the experiment.py file, make sure you have the correct path and set "is3D" parameter to a correct boolean.
+
+To run the files in "experiment codes" folder, make sure you have the correct path and set "is3D" parameter to a correct boolean.
 
 
 ### Requirements
