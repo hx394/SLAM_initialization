@@ -16,6 +16,14 @@ num_points = 10000
 err_stdev_pos = 0.05
 err_stdev_ortn = 0.01
 
+# information matrix - variance between x, y, theta
+i_xx = 1/(err_stdev_pos ** 2) # I_xx variance of x displacement
+i_xy = 0 # I_xy covariance between x and y
+i_xt = 0 # I_xtheta covariance between x and theta
+i_yy = 1/(err_stdev_pos ** 2) # I_yy variance of y displacement
+i_yt = 0 # I_ytheta covariance between x and theta
+i_tt = 1/(err_stdev_ortn ** 2) # I_thetatheta variance of theta displacement
+
 # points generation
 # we do not add error here because we assume that the robot
 # can programatially move in a near-perfect circle
@@ -63,6 +71,6 @@ with open("sparse2Dcircle.g2o", "w") as f:
 
     for i in range(len(sparse_edges)):
         i1, i2, dx, dy, dtheta = sparse_edges[i]
-        f.write(f"EDGE_SE2 {i1} {i2} {dx:.6f} {dy:.6f} {dtheta:.6f}\n")
+        f.write(f"EDGE_SE2 {i1} {i2} {dx:.6f} {dy:.6f} {dtheta:.6f} {i_xx} {i_xy} {i_xt} {i_yy} {i_yt} {i_tt}\n")
 
     print("written successfully")
