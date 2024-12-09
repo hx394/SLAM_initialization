@@ -1,0 +1,27 @@
+hongzhen@hongzhen-VirtualBox:~/project/SLAM_initialization/runnable slam initializer$ ./MASAT noisy2Dcircle.g2o noisyMASAT.g2o
+Input loaded.
+Number of measurements: 10000
+Running MASAT from VERTEX 0.
+MASAT done.
+Runtime: 26.434 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/project/SLAM_initialization/runnable slam initializer$ ./MASAT_sa noisy2Dcircle.g2o noisySA.g2o
+Input loaded.
+Number of measurements: 10000
+Running MASAT from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT simple average done.
+Runtime: 51.575 ms.
+Output finished.
+hongzhen@hongzhen-VirtualBox:~/project/SLAM_initialization/runnable slam initializer$ ./MASAT_rbfs noisy2Dcircle.g2o noisyRBFS.g2o
+Input loaded.
+Number of measurements: 10000
+Running MASAT rolling BFS from VERTEX 0.
+Running MASAT simple average from VERTEX 0.
+MASAT rolling BFS done.
+Runtime: 68500.5 ms.
+Output finished.
+
+
+
+
