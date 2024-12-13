@@ -1,5 +1,6 @@
-Northeastern University students try to improve
-MASAT intial guess for SLAM
+# Northeastern University students try to improve MASAT intial guess for SLAM
+============================================
+## Contributors: Hongzhen Xu, Ananya Tadigadapa, Shuyue Gao
 ============================================
 This repository contains the modified code for the *MASAT algorithm*: a robust and efficent approach for creating inital estimates prior to pose-graph optimization in off-line SLAM. 
 
@@ -8,9 +9,11 @@ There are two new approaches introduced and implemented by Northeastern Universi
 ### The paper describing the original approach:
 [Károly Harsányi, Attila Kiss, Tamás Szirányi, András Majdik: MASAT: A fast and robust algorithm for pose-graph initialization](https://www.sciencedirect.com/science/article/pii/S0167865519303241)
 
-### The improvement made by NEU students:
-Please see the upcoming report in the git repo.
+### The modifications made by NEU students:
+Please see the report in the git repo.
 
+
+### About experiment codes
 To run the files in "experiment codes" folder, make sure you have the correct path and set "is3D" parameter to a correct boolean.
 
 
@@ -40,6 +43,6 @@ Run:
 
 The input files must be in .g2o format. There are some examples in the ```./iinput_output_and_graph``` folder.
 
-Once the inital guess is finished, we suggest using the [g2o](https://github.com/RainerKuemmerle/g2o) framework for optimization and visualization.
+Once the inital guess is finished, the authors of former paper suggest using the [g2o](https://github.com/RainerKuemmerle/g2o) framework for optimization and visualization.
 
 Actually, we Northeastern University students use gtsam for the optimization and visualization and evaluation.
